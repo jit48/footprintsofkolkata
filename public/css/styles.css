@@ -1,0 +1,120 @@
+.team{
+    margin :  0;
+    color: white;
+    background-color:  #1b1b1d;
+}
+
+.nav-link{
+    color : #f1c40f
+}
+.nav-item  :hover{
+  color: white;
+}
+
+.navbar-brand{
+    color : #f1c40f;
+}
+.navbar a:hover{
+    color : white;
+}
+/* .navbar-toggler-icon{
+    outline-color : #f1c40f
+} */
+
+.dropdown{
+    color : #f1c40f;
+}
+.dropdown:checked{
+  color: #584804
+}
+/*------------------heading -------------------*/
+
+#Team{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+     color:  #ffc400;
+    padding-bottom: 10px;
+    padding-top: 30px;
+
+}
+#Team:after{
+    content: " ";
+    background: #ffc400;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto; 
+}
+
+/*------------------positioning -------------------*/
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.container img{
+height: 140px;
+    width: 140px;
+    border-radius: 900px;
+    position: relative;
+    box-shadow: 1px 1px 10px black
+    
+}
+.team-member{
+    display: block;
+   margin: 25px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding-top: 20px;
+    background-image: linear-gradient( #f7d695 1px ,#ee8972  );
+    box-shadow: 10px 10px 20px #1b1b1a;
+    border-radius: 10px;
+}
+.team-member:hover{
+    transform: scale(1.1);
+}
+
+
+/*------------------edits -------------------*/
+h2{
+    margin-top: 25px;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 640;
+}
+h3{
+    font-size: 18px;
+    color: #fffed2;
+}
+h3:after{
+    content: " ";
+    background: #fffed2;
+    display: block;
+    height: 1.5px;
+    width: 100px;
+    margin: 10px auto; 
+}
+
+.team-member ul{
+    list-style: none;
+    padding: 0;
+    
+}
+.team-member li{
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    margin:5px;
+    width: 40px;
+    height: 40px;
+}
+.team-member i{
+    color: white;
+}
+.team-member i:active
+.team-member i:hover{
+    color: white;
+}
